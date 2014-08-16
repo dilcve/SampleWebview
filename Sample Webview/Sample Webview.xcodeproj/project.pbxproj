@@ -20,9 +20,9 @@
 		B154BCA2199B0D030029C142 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B154BC8A199B0D030029C142 /* UIKit.framework */; };
 		B154BCAA199B0D030029C142 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B154BCA8199B0D030029C142 /* InfoPlist.strings */; };
 		B154BCAC199B0D030029C142 /* Sample_WebviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B154BCAB199B0D030029C142 /* Sample_WebviewTests.m */; };
-		B154BCBF199B0DBD0029C142 /* RFPessoaBean.m in Sources */ = {isa = PBXBuildFile; fileRef = B154BCBA199B0DBD0029C142 /* RFPessoaBean.m */; };
-		B154BCC0199B0DBD0029C142 /* RFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B154BCBC199B0DBD0029C142 /* RFWebViewController.m */; };
-		B154BCC1199B0DBD0029C142 /* RFWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B154BCBD199B0DBD0029C142 /* RFWebViewController.xib */; };
+		B1DEC2E2199FABD3000476B1 /* RFPessoaBean.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DEC2DE199FABD3000476B1 /* RFPessoaBean.m */; };
+		B1DEC2E3199FABD3000476B1 /* RFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DEC2E0199FABD3000476B1 /* RFWebViewController.m */; };
+		B1DEC2E4199FABD3000476B1 /* RFWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1DEC2E1199FABD3000476B1 /* RFWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +53,11 @@
 		B154BCA7199B0D030029C142 /* Sample WebviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample WebviewTests-Info.plist"; sourceTree = "<group>"; };
 		B154BCA9199B0D030029C142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B154BCAB199B0D030029C142 /* Sample_WebviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_WebviewTests.m; sourceTree = "<group>"; };
-		B154BCB9199B0DBD0029C142 /* RFPessoaBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFPessoaBean.h; path = "../../Simple Webview/Simple Webview/RFPessoaBean.h"; sourceTree = "<group>"; };
-		B154BCBA199B0DBD0029C142 /* RFPessoaBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFPessoaBean.m; path = "../../Simple Webview/Simple Webview/RFPessoaBean.m"; sourceTree = "<group>"; };
-		B154BCBB199B0DBD0029C142 /* RFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFWebViewController.h; path = "../../Simple Webview/Simple Webview/RFWebViewController.h"; sourceTree = "<group>"; };
-		B154BCBC199B0DBD0029C142 /* RFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFWebViewController.m; path = "../../Simple Webview/Simple Webview/RFWebViewController.m"; sourceTree = "<group>"; };
-		B154BCBD199B0DBD0029C142 /* RFWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RFWebViewController.xib; path = "../../Simple Webview/Simple Webview/RFWebViewController.xib"; sourceTree = "<group>"; };
+		B1DEC2DD199FABD3000476B1 /* RFPessoaBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFPessoaBean.h; sourceTree = "<group>"; };
+		B1DEC2DE199FABD3000476B1 /* RFPessoaBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFPessoaBean.m; sourceTree = "<group>"; };
+		B1DEC2DF199FABD3000476B1 /* RFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFWebViewController.h; sourceTree = "<group>"; };
+		B1DEC2E0199FABD3000476B1 /* RFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFWebViewController.m; sourceTree = "<group>"; };
+		B1DEC2E1199FABD3000476B1 /* RFWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFWebViewController.xib; sourceTree = "<group>"; };
 		FE9D9AC2C1B64618878B1DAD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,12 +121,12 @@
 		B154BC8C199B0D030029C142 /* Sample Webview */ = {
 			isa = PBXGroup;
 			children = (
+				B1DEC2DD199FABD3000476B1 /* RFPessoaBean.h */,
+				B1DEC2DE199FABD3000476B1 /* RFPessoaBean.m */,
+				B1DEC2DF199FABD3000476B1 /* RFWebViewController.h */,
+				B1DEC2E0199FABD3000476B1 /* RFWebViewController.m */,
+				B1DEC2E1199FABD3000476B1 /* RFWebViewController.xib */,
 				B154BC95199B0D030029C142 /* AppDelegate.h */,
-				B154BCB9199B0DBD0029C142 /* RFPessoaBean.h */,
-				B154BCBA199B0DBD0029C142 /* RFPessoaBean.m */,
-				B154BCBB199B0DBD0029C142 /* RFWebViewController.h */,
-				B154BCBC199B0DBD0029C142 /* RFWebViewController.m */,
-				B154BCBD199B0DBD0029C142 /* RFWebViewController.xib */,
 				B154BC96199B0D030029C142 /* AppDelegate.m */,
 				B154BC98199B0D030029C142 /* Images.xcassets */,
 				B154BC8D199B0D030029C142 /* Supporting Files */,
@@ -241,8 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B154BC91199B0D030029C142 /* InfoPlist.strings in Resources */,
+				B1DEC2E4199FABD3000476B1 /* RFWebViewController.xib in Resources */,
 				B154BC99199B0D030029C142 /* Images.xcassets in Resources */,
-				B154BCC1199B0DBD0029C142 /* RFWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B154BCC0199B0DBD0029C142 /* RFWebViewController.m in Sources */,
+				B1DEC2E2199FABD3000476B1 /* RFPessoaBean.m in Sources */,
 				B154BC97199B0D030029C142 /* AppDelegate.m in Sources */,
-				B154BCBF199B0DBD0029C142 /* RFPessoaBean.m in Sources */,
+				B1DEC2E3199FABD3000476B1 /* RFWebViewController.m in Sources */,
 				B154BC93199B0D030029C142 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
